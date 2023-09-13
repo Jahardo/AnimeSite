@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/Jahardo/produrt-prodjert-react-ts-webpack",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npx webpack serve"
   },
   "author": "",
